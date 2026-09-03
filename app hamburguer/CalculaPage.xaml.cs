@@ -27,12 +27,12 @@ public partial class NewPage1 : ContentPage
             if (proporcao <= 0.70)
             {
                 lblResultado.Text = $"Vale a pena abastecer com ETANOL!\n (Proporção: {proporcao: P1})";
-                lblresultado.TextColor = Colors.Green;
+                lblResultado.TextColor = Colors.Green;
             }
             else
             {
                 lblResultado.Text = $"Vale a pena abastecer com GASOLINA!\n (Proporção: {proporcao: P1})";
-                lblresultado.TextColor = Colors.Blue;
+                lblResultado.TextColor = Colors.Blue;
             }
         }
         else

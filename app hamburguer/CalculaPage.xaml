@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="app_hamburguer.NewPage1"
              Title="Calcula Page">
+    <ScrollView>
     <VerticalStackLayout>
-        <ScrollView>
+        
             <Label 
                 Text="Preço do Etanol (R$)"
                 FontSize="16" />
@@ -41,6 +42,6 @@
                    Margin="0, 20, 0, 0"
                    TextColor="DarkGreen"/>
 
-        </ScrollView>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

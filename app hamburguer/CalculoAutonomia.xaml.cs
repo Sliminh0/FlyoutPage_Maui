@@ -27,7 +27,7 @@ public partial class CalculoAutonomia : ContentPage
     private void OnLimparClicked(object sender, EventArgs e)
     {
         txtLitros.Text = string.Empty;
-        txtDistania.Text = string.Empty;
+        txtDistancia.Text = string.Empty;
         lblResultado.Text = string.Empty;
     }
 }
