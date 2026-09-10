@@ -1,6 +1,6 @@
 namespace app_hamburguer;
 
-public partial class appFlyoutPage : ContentPage
+public partial class appFlyoutPage : FlyoutPage
 {
 	public appFlyoutPage()
 	{
