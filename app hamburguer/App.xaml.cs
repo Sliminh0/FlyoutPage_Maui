@@ -9,6 +9,7 @@
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
+         
             return new Window(new appFlyoutPage());
         }
     }
